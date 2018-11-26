@@ -11,8 +11,8 @@
     * 2.1. Servlet
     * 2.2. WebFlux
     * 2.3. Integrations
-  * 3、Getting Spring Security
-    * 3.1. Release Numbering
+  * [3、Getting Spring Security](3getting-spring-security.md)
+    * [3.1. Release Numbering](3getting-spring-security/31-release-numbering.md)
   * [3.2. Usage with Maven](32-usage-with-maven.md)
     * 3.2.1. Spring Boot with Maven
     * 3.2.2. Maven Without Spring Boot
