@@ -16,5 +16,4 @@
   * [3.2. Usage with Maven](32-usage-with-maven.md)
     * 3.2.1. Spring Boot with Maven
     * 3.2.2. Maven Without Spring Boot
-* [First Chapter](chapter1.md)
 
