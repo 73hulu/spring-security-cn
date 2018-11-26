@@ -15,5 +15,5 @@
     * [3.1. Release Numbering](3getting-spring-security/31-release-numbering.md)
   * [3.2. Usage with Maven](32-usage-with-maven.md)
     * [3.2.1. Spring Boot with Maven](32-usage-with-maven/321-spring-boot-with-maven.md)
-    * 3.2.2. Maven Without Spring Boot
+    * [3.2.2. Maven Without Spring Boot](32-usage-with-maven/322-maven-without-spring-boot.md)
 
