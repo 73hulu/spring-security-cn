@@ -14,5 +14,27 @@ Spring Boot提供了一个spring-boot-starter-security启动程序，它将Sprin
 </dependencies>
 ```
 
+由于Spring Boot提供Maven BOM来管理依赖版本，因此无需指定版本。 如果您希望覆盖Spring Security版本，可以通过提供Maven属性来实现：
 
+**pom.xml**
+
+```
+<properties>
+    <!-- ... -->
+    <spring-security.version>5.1.1.RELEASE</spring.security.version>
+</dependencies>
+```
+
+由于Spring Security仅在主要版本中进行了重大更改，因此使用Spring Boot的较新版本的Spring Security是安全的。但是，有时可能还需要更新Spring Framework的版本。 这可以通过添加Maven属性轻松完成：
+
+**pom.xml**
+
+```
+<properties>
+    <!-- ... -->
+    <spring.version>5.1.1.RELEASE</spring.version>
+</dependencies>
+```
+
+如果您正在使用LDAP，OpenID等其他功能，则还需要包含相应的功能[Chapter 4,Project Modules](https://docs.spring.io/spring-security/site/docs/5.1.1.RELEASE/reference/htmlsingle/#modules)。
 
