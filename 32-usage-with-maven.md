@@ -1,0 +1,2 @@
+与大多数开源项目一样，Spring Security将其依赖项部署为Maven工件。以下部分提供有关如何在使用Maven时使用Spring Security的详细信息。
+
