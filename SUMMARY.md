@@ -21,4 +21,8 @@
       * 3.3.1. Spring Boot with Gradle
       * 3.3.2. Gradle Without Spring Boot
       * 3.3.3. Gradle Repositories
+  * 4、Project Modules
+    * 4.1. Core - spring-security-core.jar
+    * 4.2. Remoting - spring-security-remoting.jar
+    * 4.3. Web - spring-security-web.jar
 
