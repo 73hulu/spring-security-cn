@@ -27,7 +27,7 @@
     * [4.3. Web - spring-security-web.jar](43-web-spring-security-webjar.md)
     * [4.4. Config - spring-security-config.jar](44-config-spring-security-configjar.md)
     * [4.5. LDAP - spring-security-ldap.jar](45-ldap-spring-security-ldapjar.md)
-    * 4.6. OAuth 2.0 Core - spring-security-oauth2-core.jar
+    * [4.6. OAuth 2.0 Core - spring-security-oauth2-core.jar](46-oauth-20-core-spring-security-oauth2-corejar.md)
     * 4.7. OAuth 2.0 Client - spring-security-oauth2-client.jar
     * 4.8. OAuth 2.0 JOSE - spring-security-oauth2-jose.jar
     * 4.9. ACL - spring-security-acl.jar
