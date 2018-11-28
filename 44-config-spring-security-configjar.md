@@ -1,0 +1,2 @@
+包含security 名称空间解析代码和Java配置代码。如果您使用Spring Security XML命名空间进行配置或Spring Security的Java配置支持，则需要它。主要包是org.springframework.security.config。这些类都不打算直接用于应用程序。
+
