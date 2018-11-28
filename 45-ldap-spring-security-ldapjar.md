@@ -1,0 +1,2 @@
+LDAP身份验证和配置代码。如果需要使用LDAP身份验证或管理LDAP用户条目，则为必需。顶级包是org.springframework.security.ldap
+
