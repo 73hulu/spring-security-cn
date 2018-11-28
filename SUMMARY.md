@@ -34,4 +34,12 @@
     * [4.10. CAS - spring-security-cas.jar](410-cas-spring-security-casjar.md)
     * [4.11. OpenID - spring-security-openid.jar](411-openid-spring-security-openidjar.md)
     * [4.12. Test - spring-security-test.jar](412-test-spring-security-testjar.md)
+  * [5、Sample Applications](5sample-applications.md)
+    * [5.1. Tutorial Sample](51-tutorial-sample.md)
+    * 5.2. Contacts
+    * 5.3. LDAP Sample
+    * 5.4. OpenID Sample
+    * 5.5. CAS Sample
+    * 5.6. JAAS Sample
+    * 5.7. Pre-Authentication Sample
 
