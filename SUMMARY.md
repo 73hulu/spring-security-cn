@@ -30,8 +30,8 @@
     * [4.6. OAuth 2.0 Core - spring-security-oauth2-core.jar](46-oauth-20-core-spring-security-oauth2-corejar.md)
     * [4.7. OAuth 2.0 Client - spring-security-oauth2-client.jar](47-oauth-20-client-spring-security-oauth2-clientjar.md)
     * [4.8. OAuth 2.0 JOSE - spring-security-oauth2-jose.jar](48-oauth-20-jose-spring-security-oauth2-josejar.md)
-    * 4.9. ACL - spring-security-acl.jar
-    * 4.10. CAS - spring-security-cas.jar
+    * [4.9. ACL - spring-security-acl.jar](49-acl-spring-security-acljar.md)
+    * [4.10. CAS - spring-security-cas.jar](410-cas-spring-security-casjar.md)
     * 4.11. OpenID - spring-security-openid.jar
     * 4.12. Test - spring-security-test.jar
 
