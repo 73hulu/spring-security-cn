@@ -67,4 +67,25 @@
         * Setting the redirect URI
         * Configure application.yml
         * Boot up the application
+      * 6.7.2. Spring Boot 2.x Property Mappings
+      * 6.7.3. CommonOAuth2Provider
+      * 6.7.4. Configuring Custom Provider Properties
+      * 6.7.5. Overriding Spring Boot 2.x Auto-configuration
+        * Register a ClientRegistrationRepository @Bean
+        * Provide a WebSecurityConfigurerAdapter
+        * Completely Override the Auto-configuration
+      * 6.7.6. Java Configuration without Spring Boot 2.x
+      * 6.7.7. Additional Resources
+    * 6.8. OAuth 2.0 Resource Server
+      * 6.8.1. Dependencies
+      * 6.8.2. Minimal Configuration
+        * Specifying the Authorization Server
+        * Startup Expectations
+        * Runtime Expectations
+      * 6.8.3. Specifying the Authorization Server JWK Set Uri Directly
+      * 6.8.4. Overriding or Replacing Boot Auto Configuration
+        * Using jwkSetUri\(\)
+        * Using decoder\(\)
+        * Exposing a JwtDecoder @Bean
+      * 6.8.5. Configuring Authorization
 
