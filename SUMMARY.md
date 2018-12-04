@@ -36,10 +36,10 @@
     * [4.12. Test - spring-security-test.jar](412-test-spring-security-testjar.md)
   * [5、Sample Applications](5sample-applications.md)
     * [5.1. Tutorial Sample](51-tutorial-sample.md)
-    * 5.2. Contacts
-    * 5.3. LDAP Sample
-    * 5.4. OpenID Sample
+    * [5.2. Contacts](52-contacts.md)
+    * [5.3. LDAP Sample](53-ldap-sample.md)
+    * [5.4. OpenID Sample](54-openid-sample.md)
     * 5.5. CAS Sample
     * 5.6. JAAS Sample
-    * 5.7. Pre-Authentication Sample
+    * [5.7. Pre-Authentication Sample](57-pre-authentication-sample.md)
 
