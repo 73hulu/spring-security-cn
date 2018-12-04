@@ -88,4 +88,26 @@
         * Using decoder\(\)
         * Exposing a JwtDecoder @Bean
       * 6.8.5. Configuring Authorization
+        * Extracting Authorities Manually
+      * 6.8.6. Configuring Validation
+        * Customizing Timestamp Validation
+        * Configuring a Custom Validator
+      * 6.8.7. Configuring Claim Set Mapping
+        * Customizing the Conversion of a Single Claim
+        * Adding a Claim
+        * Removing a Claim
+        * Renaming a Claim
+      * 6.8.8. Configuring Timeouts
+    * 6.9. Authentication
+      * 6.9.1. In-Memory Authentication
+      * 6.9.2. JDBC Authentication
+      * 6.9.3. LDAP Authentication
+      * 6.9.4. AuthenticationProvider
+      * 6.9.5. UserDetailsService
+    * 6.10. Multiple HttpSecurity
+    * [6.11. Method Security](ii-servlet-applications/6java-configuration/611-method-security.md)
+      * 6.11.1. EnableGlobalMethodSecurity
+      * 6.11.2. GlobalMethodSecurityConfiguration
+    * 6.12. Post Processing Configured Objects
+    * 6.13. Custom DSLs
 
