@@ -40,6 +40,6 @@
     * [5.3. LDAP Sample](53-ldap-sample.md)
     * [5.4. OpenID Sample](54-openid-sample.md)
     * [5.5. CAS Sample](55-cas-sample.md)
-    * 5.6. JAAS Sample
+    * [5.6. JAAS Sample](56-jaas-sample.md)
     * [5.7. Pre-Authentication Sample](57-pre-authentication-sample.md)
 
