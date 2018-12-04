@@ -53,5 +53,18 @@
       * 6.5.2. LogoutSuccessHandler
       * 6.5.3. Further Logout-Related References
     * 6.6. OAuth 2.0 Client
+      * 6.6.1. ClientRegistration
+      * 6.6.2. ClientRegistrationRepository
+      * 6.6.3. OAuth2AuthorizedClient
+      * 6.6.4. OAuth2AuthorizedClientRepository / OAuth2AuthorizedClientService
+      * 6.6.5. RegisteredOAuth2AuthorizedClient
+      * 6.6.6. AuthorizationRequestRepository
+      * 6.6.7. OAuth2AuthorizationRequestResolver
+      * 6.6.8. OAuth2AccessTokenResponseClient
     * 6.7. OAuth 2.0 Login
+      * 6.7.1. Spring Boot 2.x Sample
+        * Initial setup
+        * Setting the redirect URI
+        * Configure application.yml
+        * Boot up the application
 
