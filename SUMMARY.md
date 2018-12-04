@@ -42,5 +42,16 @@
     * [5.5. CAS Sample](55-cas-sample.md)
     * [5.6. JAAS Sample](56-jaas-sample.md)
     * [5.7. Pre-Authentication Sample](57-pre-authentication-sample.md)
-* II、 Servlet Applications
+* [II、 Servlet Applications](ii-servlet-applications.md)
+  * [6、Java Configuration](ii-servlet-applications/6java-configuration.md)
+    * 6.1.Hello Web Security Java Configuration
+    * 6.2. HttpSecurity
+    * 6.3. Java Configuration and Form Login
+    * 6.4. Authorize Requests
+    * 6.5. Handling Logouts
+      * 6.5.1. LogoutHandler
+      * 6.5.2. LogoutSuccessHandler
+      * 6.5.3. Further Logout-Related References
+    * 6.6. OAuth 2.0 Client
+    * 6.7. OAuth 2.0 Login
 
