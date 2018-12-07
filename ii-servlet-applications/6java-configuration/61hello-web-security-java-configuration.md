@@ -41,7 +41,7 @@ public class WebSecurityConfig implements WebMvcConfigurer {
   * [HttpServletRequest\#getRemoteUser\(\)](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getRemoteUser%28%29)
   * [HttpServletRequest.html\#getUserPrincipal\(\)](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getUserPrincipal%28%29)
   * [HttpServletRequest.html\#isUserInRole\(java.lang.String\)](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#isUserInRole%28java.lang.String%29)
-  * [HttpServletRequest.html\#login\(java.lang.String, java.lang.String](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#login%28java.lang.String,%20java.lang.String%29)
+  * [HttpServletRequest.html\#login\(java.lang.String, java.lang.String](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#login%28java.lang.String, java.lang.String%29)
   * [HttpServletRequest.html\#logout\(\)](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#logout%28%29)
 
 
