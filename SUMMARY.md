@@ -44,7 +44,7 @@
     * [5.7. Pre-Authentication Sample](57-pre-authentication-sample.md)
 * [II、 Servlet Applications](ii-servlet-applications.md)
   * [6、Java Configuration](ii-servlet-applications/6java-configuration.md)
-    * 6.1.Hello Web Security Java Configuration
+    * [6.1.Hello Web Security Java Configuration](ii-servlet-applications/6java-configuration/61hello-web-security-java-configuration.md)
     * 6.2. HttpSecurity
     * 6.3. Java Configuration and Form Login
     * 6.4. Authorize Requests
