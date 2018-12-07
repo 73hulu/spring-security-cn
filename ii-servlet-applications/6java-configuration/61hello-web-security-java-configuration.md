@@ -28,14 +28,21 @@ public class WebSecurityConfig implements WebMvcConfigurer {
 * CSRF攻击（[CSRF attack](https://en.wikipedia.org/wiki/Cross-site_request_forgery)）预防
 * 会话固定（[Session Fixation](https://en.wikipedia.org/wiki/Session_fixation)）保护
 * 安全标头集成
+
   * HTTP为安全请求提供了严格的传输安全性（[HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)）
   * [X-Content-Type-Options](https://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx)集成
   * 缓存控制（稍后可由应用程序覆盖以允许缓存静态资源）
   * [X-XSS-Protection](https://msdn.microsoft.com/en-us/library/dd565647%28v=vs.85%29.aspx)集成
 
   * X-Frame-Options集成，帮助防止点击劫持[Clickjacking](https://en.wikipedia.org/wiki/Clickjacking)
-* 
 
+* 与以下Servlet API方法集成
+
+  * [HttpServletRequest\#getRemoteUser\(\)](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getRemoteUser%28%29)
+  * [HttpServletRequest.html\#getUserPrincipal\(\)](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#getUserPrincipal%28%29)
+  * [HttpServletRequest.html\#isUserInRole\(java.lang.String\)](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#isUserInRole%28java.lang.String%29)
+  * [HttpServletRequest.html\#login\(java.lang.String, java.lang.String](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#login%28java.lang.String,%20java.lang.String%29)
+  * [HttpServletRequest.html\#logout\(\)](https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html#logout%28%29)
 
 
 
