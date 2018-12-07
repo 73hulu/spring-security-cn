@@ -46,7 +46,7 @@
   * [6、Java Configuration](ii-servlet-applications/6java-configuration.md)
     * [6.1.Hello Web Security Java Configuration](ii-servlet-applications/6java-configuration/61hello-web-security-java-configuration.md)
       * [6.1.1. AbstractSecurityWebApplicationInitializer](ii-servlet-applications/6java-configuration/61hello-web-security-java-configuration/611-abstractsecuritywebapplicationinitializer.md)
-      * 6.1.2. AbstractSecurityWebApplicationInitializer without Existing Spring
+      * [6.1.2. AbstractSecurityWebApplicationInitializer without Existing Spring](ii-servlet-applications/6java-configuration/61hello-web-security-java-configuration/612-abstractsecuritywebapplicationinitializer-without-existing-spring.md)
       * 6.1.3. AbstractSecurityWebApplicationInitializer with Spring MVC
     * 6.2. HttpSecurity
     * 6.3. Java Configuration and Form Login
