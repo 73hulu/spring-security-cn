@@ -50,7 +50,7 @@
       * [6.1.3. AbstractSecurityWebApplicationInitializer with Spring MVC](ii-servlet-applications/6java-configuration/61hello-web-security-java-configuration/613-abstractsecuritywebapplicationinitializer-with-spring-mvc.md)
     * [6.2. HttpSecurity](ii-servlet-applications/6java-configuration/62-httpsecurity.md)
     * [6.3. Java Configuration and Form Login](ii-servlet-applications/6java-configuration/63-java-configuration-and-form-login.md)
-    * 6.4. Authorize Requests
+    * [6.4. Authorize Requests](ii-servlet-applications/6java-configuration/64-authorize-requests.md)
     * 6.5. Handling Logouts
       * 6.5.1. LogoutHandler
       * 6.5.2. LogoutSuccessHandler
