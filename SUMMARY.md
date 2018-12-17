@@ -55,7 +55,7 @@
       * [6.5.1. LogoutHandler](ii-servlet-applications/6java-configuration/65-handling-logouts/651-logouthandler.md)
       * [6.5.2. LogoutSuccessHandler](ii-servlet-applications/6java-configuration/65-handling-logouts/652-logoutsuccesshandler.md)
       * [6.5.3. Further Logout-Related References](ii-servlet-applications/6java-configuration/65-handling-logouts/653-further-logout-related-references.md)
-    * 6.6. OAuth 2.0 Client
+    * [6.6. OAuth 2.0 Client](ii-servlet-applications/6java-configuration/66-oauth-20-client.md)
       * 6.6.1. ClientRegistration
       * 6.6.2. ClientRegistrationRepository
       * 6.6.3. OAuth2AuthorizedClient
