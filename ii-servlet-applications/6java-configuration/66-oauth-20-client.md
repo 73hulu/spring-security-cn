@@ -27,5 +27,17 @@ public class OAuth2ClientSecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ```
 
+以下部分详细介绍了每种可用的配置选项：
+
+* [Section 6.6.1, “ClientRegistration”](https://docs.spring.io/spring-security/site/docs/5.1.2.RELEASE/reference/htmlsingle/#oauth2Client-client-registration)
+
+* [Section 6.6.2, “ClientRegistrationRepository”](https://docs.spring.io/spring-security/site/docs/5.1.2.RELEASE/reference/htmlsingle/#oauth2Client-client-registration-repo)
+* [Section 6.6.3, “OAuth2AuthorizedClient”](https://docs.spring.io/spring-security/site/docs/5.1.2.RELEASE/reference/htmlsingle/#oauth2Client-authorized-client)
+* [Section 6.6.4, “OAuth2AuthorizedClientRepository / OAuth2AuthorizedClientService”](https://docs.spring.io/spring-security/site/docs/5.1.2.RELEASE/reference/htmlsingle/#oauth2Client-authorized-repo-service)
+* [Section 6.6.5, “RegisteredOAuth2AuthorizedClient”](https://docs.spring.io/spring-security/site/docs/5.1.2.RELEASE/reference/htmlsingle/#oauth2Client-registered-authorized-client)
+* [Section 6.6.6, “AuthorizationRequestRepository”](https://docs.spring.io/spring-security/site/docs/5.1.2.RELEASE/reference/htmlsingle/#oauth2Client-authorization-request-repository)
+* [Section 6.6.7, “OAuth2AuthorizationRequestResolver”](https://docs.spring.io/spring-security/site/docs/5.1.2.RELEASE/reference/htmlsingle/#oauth2Client-authorization-request-resolver)
+* [Section 6.6.8, “OAuth2AccessTokenResponseClient”](https://docs.spring.io/spring-security/site/docs/5.1.2.RELEASE/reference/htmlsingle/#oauth2Client-access-token-client)
+
 
 
