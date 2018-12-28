@@ -77,7 +77,16 @@ public class CustomAuthorizationRequestResolver implements OAuth2AuthorizationRe
 }
 ```
 
+1. 配置自定义OAuth2AuthorizationRequestResolver
+2. 尝试使用DefaultOAuth2AuthorizationRequestResolver解析OAuth2AuthorizationRequest
+3. 如果解析了OAuth2AuthorizationRequest而不是返回自定义版本，则返回null
+4. 尝试使用DefaultOAuth2AuthorizationRequestResolver解析OAuth2AuthorizationReques
+5. 如果解析了OAuth2AuthorizationRequest而不是返回自定义版本，则返回null
+6. 将自定义参数添加到现有OAuth2AuthorizationRequest.additionalParameters
+7. 创建默认OAuth2AuthorizationRequest的副本，该副本返回OAuth2AuthorizationRequest.Builder以进行进一步修改
+8. 覆盖默认的additionalParameters
 
+> OAuth2AuthorizationRequest.Builder.build（）构造参数OAuth2AuthorizationRequest.authorizationRequestUri，它代表完整的授权请求URI，包括使用application / x-www-form-urlencoded格式的所有查询参数。
 
-
+上面的示例显示了在标准参数之上添加自定义参数的常见用例。
 
