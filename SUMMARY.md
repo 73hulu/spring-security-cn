@@ -67,8 +67,8 @@
     * [6.7. OAuth 2.0 Login](ii-servlet-applications/6java-configuration/67-oauth-20-login.md)
       * [6.7.1. Spring Boot 2.x Sample](ii-servlet-applications/6java-configuration/67-oauth-20-login/671-spring-boot-2x-sample.md)
         * [Initial setup](ii-servlet-applications/6java-configuration/67-oauth-20-login/671-spring-boot-2x-sample/initial-setup.md)
-        * Setting the redirect URI
-        * Configure application.yml
+        * [Setting the redirect URI](ii-servlet-applications/6java-configuration/67-oauth-20-login/671-spring-boot-2x-sample/setting-the-redirect-uri.md)
+        * [Configure application.yml](ii-servlet-applications/6java-configuration/67-oauth-20-login/671-spring-boot-2x-sample/configure-applicationyml.md)
         * Boot up the application
       * 6.7.2. Spring Boot 2.x Property Mappings
       * 6.7.3. CommonOAuth2Provider
