@@ -1,0 +1,2 @@
+`OAuth2AuthorizedClientRepository`负责在Web请求之间持久化OAuth2AuthorizedClient。然而，`OAuth2AuthorizedClientService`的主要作用是在应用程序级别管理OAuth2AuthorizedClient。
+
