@@ -20,7 +20,32 @@ RestTemplate restTemplate = new RestTemplate(Arrays.asList(
 restTemplate.setErrorHandler(new OAuth2ErrorResponseErrorHandler());
 ```
 
+> 当发送OAuth 2.0访问令牌请求时，需要使用Spring MVC FormHttpMessageConverter。
 
+OAuth2AccessTokenResponseHttpMessageConverter是OAuth 2.0访问令牌响应的HttpMessageConverter。您可以使用自定义Converter &lt;Map &lt;String，String&gt;，OAuth2AccessTokenResponse&gt;提供OAuth2AccessTokenResponseHttpMessageConverter.setTokenResponseConverter（），该选项用于将OAuth 2.0访问令牌响应参数转换为OAuth2AccessTokenResponse。
+
+OAuth2ErrorResponseErrorHandler是一个ResponseErrorHandler，可以处理OAuth 2.0错误（400 Bad Request）。它使用OAuth2ErrorHttpMessageConverter将OAuth 2.0 Error参数转换为OAuth2Error。
+
+无论您是自定义DefaultAuthorizationCodeTokenResponseClient还是提供自己的OAuth2AccessTokenResponseClient实现，您都需要对其进行配置，如以下示例所示：
+
+```
+@EnableWebSecurity
+public class OAuth2ClientSecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+            .oauth2Client()
+                .authorizationCodeGrant()
+                    .accessTokenResponseClient(this.customAccessTokenResponseClient())
+                    ...
+    }
+
+    private OAuth2AccessTokenResponseClient<OAuth2AuthorizationCodeGrantRequest> customAccessTokenResponseClient() {
+        ...
+    }
+}
+```
 
 
 
