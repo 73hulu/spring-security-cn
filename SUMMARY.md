@@ -64,8 +64,8 @@
       * [6.6.6. AuthorizationRequestRepository](ii-servlet-applications/6java-configuration/66-oauth-20-client/666-authorizationrequestrepository.md)
       * [6.6.7. OAuth2AuthorizationRequestResolver](ii-servlet-applications/6java-configuration/66-oauth-20-client/667-oauth2authorizationrequestresolver.md)
       * [6.6.8. OAuth2AccessTokenResponseClient](ii-servlet-applications/6java-configuration/66-oauth-20-client/668-oauth2accesstokenresponseclient.md)
-    * 6.7. OAuth 2.0 Login
-      * 6.7.1. Spring Boot 2.x Sample
+    * [6.7. OAuth 2.0 Login](ii-servlet-applications/6java-configuration/67-oauth-20-login.md)
+      * [6.7.1. Spring Boot 2.x Sample](ii-servlet-applications/6java-configuration/67-oauth-20-login/671-spring-boot-2x-sample.md)
         * Initial setup
         * Setting the redirect URI
         * Configure application.yml
