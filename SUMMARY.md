@@ -61,7 +61,7 @@
       * [6.6.3. OAuth2AuthorizedClient](ii-servlet-applications/6java-configuration/66-oauth-20-client/663-oauth2authorizedclient.md)
       * [6.6.4. OAuth2AuthorizedClientRepository / OAuth2AuthorizedClientService](ii-servlet-applications/6java-configuration/66-oauth-20-client/664-oauth2authorizedclientrepository-oauth2authorizedclientservice.md)
       * [6.6.5. RegisteredOAuth2AuthorizedClient](ii-servlet-applications/6java-configuration/66-oauth-20-client/665-registeredoauth2authorizedclient.md)
-      * 6.6.6. AuthorizationRequestRepository
+      * [6.6.6. AuthorizationRequestRepository](ii-servlet-applications/6java-configuration/66-oauth-20-client/666-authorizationrequestrepository.md)
       * 6.6.7. OAuth2AuthorizationRequestResolver
       * 6.6.8. OAuth2AccessTokenResponseClient
     * 6.7. OAuth 2.0 Login
