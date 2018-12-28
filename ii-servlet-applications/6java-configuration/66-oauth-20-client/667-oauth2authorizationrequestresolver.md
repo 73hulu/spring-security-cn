@@ -88,5 +88,25 @@ public class CustomAuthorizationRequestResolver implements OAuth2AuthorizationRe
 
 > OAuth2AuthorizationRequest.Builder.build（）构造参数OAuth2AuthorizationRequest.authorizationRequestUri，它代表完整的授权请求URI，包括使用application / x-www-form-urlencoded格式的所有查询参数。
 
-上面的示例显示了在标准参数之上添加自定义参数的常见用例。
+上面的示例显示了在标准参数之上添加自定义参数的常见用例。但是，如果您需要删除或更改标准参数或者您的要求更高级，则可以通过简单地覆盖OAuth2AuthorizationRequest.authorizationRequestUri属性来完全控制构建授权请求URI。
+
+以下示例显示了上一示例中customAuthorizationRequest（）方法的变体，而是覆盖了OAuth2AuthorizationRequest.authorizationRequestUri属性。
+
+```
+private OAuth2AuthorizationRequest customAuthorizationRequest(
+        OAuth2AuthorizationRequest authorizationRequest) {
+
+    String customAuthorizationRequestUri = UriComponentsBuilder
+            .fromUriString(authorizationRequest.getAuthorizationRequestUri())
+            .queryParam("prompt", "consent")
+            .build(true)
+            .toUriString();
+
+    return OAuth2AuthorizationRequest.from(authorizationRequest)
+            .authorizationRequestUri(customAuthorizationRequestUri)
+            .build();
+}
+```
+
+
 
