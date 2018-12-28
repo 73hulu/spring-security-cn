@@ -1,0 +1,14 @@
+OAuth2AccessTokenResponseClient的主要角色是在授权服务器的令牌端点将授权许可凭据交换为访问令牌凭据。
+
+对于authorization\_code授权，OAuth2AccessTokenResponseClient的默认实现是`DefaultAuthorizationCodeTokenResponseClient`，它使用RestOperations在令牌端点将授权代码交换为访问令牌。
+
+DefaultAuthorizationCodeTokenResponseClient非常灵活，因为它允许您自定义令牌请求的预处理或令牌响应的后处理。
+
+如果需要定制令牌请求的预处理，可以为DefaultAuthorizationCodeTokenResponseClient.setRequestEntityConverter\(\)提供一个自定义的转换器Converter&lt;OAuth2AuthorizationCodeGrantRequest, RequestEntity&lt;?&gt;&gt;。默认实现OAuth2AuthorizationCodeGrantRequestEntityConverter构建标准OAuth 2.0访问令牌请求的RequestEntity表示。但是，提供自定义转换器将允许您扩展标准令牌请求并添加自定义参数。
+
+> Important
+>
+> 自定义转换器必须返回OAuth 2.0访问令牌请求的有效RequestEntity表示，该表示由预期的OAuth 2.0提供程序理解。
+
+
+
