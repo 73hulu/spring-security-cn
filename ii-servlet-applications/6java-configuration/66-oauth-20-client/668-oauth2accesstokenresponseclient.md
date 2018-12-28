@@ -10,5 +10,17 @@ DefaultAuthorizationCodeTokenResponseClient非常灵活，因为它允许您自�
 >
 > 自定义转换器必须返回OAuth 2.0访问令牌请求的有效RequestEntity表示，该表示由预期的OAuth 2.0提供程序理解。
 
+另一方面，如果您需要自定义令牌响应的后处理，则需要使用自定义配置的RestOperations提供DefaultAuthorizationCodeTokenResponseClient.setRestOperations（）。 默认的RestOperations配置如下：
+
+```
+RestTemplate restTemplate = new RestTemplate(Arrays.asList(
+        new FormHttpMessageConverter(),
+        new OAuth2AccessTokenResponseHttpMessageConverter()));
+
+restTemplate.setErrorHandler(new OAuth2ErrorResponseErrorHandler());
+```
+
+
+
 
 
