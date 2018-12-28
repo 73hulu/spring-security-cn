@@ -1,0 +1,4 @@
+OAuth2AuthorizedClient是授权客户端的表示。 当最终用户（资源所有者）已授权客户端访问其受保护资源时，将认为客户端已获得授权。
+
+OAuth2AuthorizedClient用于将OAuth2AccessToken（和可选的OAuth2RefreshToken）与ClientRegistration（客户端）和资源所有者相关联，后者是授予授权的主要最终用户。
+
